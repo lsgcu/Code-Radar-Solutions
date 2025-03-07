@@ -6,7 +6,7 @@ int main () {
 
     scanf("%i", &integer);
 
-    print("You entered: ", integer);
+    printf("You entered: ", integer);
 
     return 0;
 }
