@@ -6,7 +6,7 @@ int main () {
 
     scanf("%f", &point_number);
 
-    printf("You entered: %f\n", point_number);
+    printf("You entered: %f.2\n", point_number);
 
     return 0;
 }
