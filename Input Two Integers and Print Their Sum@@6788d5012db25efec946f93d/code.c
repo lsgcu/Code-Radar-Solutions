@@ -2,12 +2,11 @@
 
 int main() {
 
-    int first = 0;
-    int second = 0;
+    int first, int second;
 
-    scanf("%i", "%i", &first, &second);
+    scanf("%i", "%i", first, second);
 
-    int sum = first+second;
+    // int sum = first+second;
 
     // printf("Sum: %i", sum);
 
