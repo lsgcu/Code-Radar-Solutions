@@ -2,11 +2,11 @@
 
 int main() {
 
-    char* string;
+    char [string];
 
-    scanf(%s, string);
+    scanf('%s', string);
 
     printf(string);
 
-    return 0:
+    return 0;
 }
