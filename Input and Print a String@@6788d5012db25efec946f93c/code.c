@@ -2,11 +2,11 @@
 
 int main() {
 
-    char [string];
+    char string[10];
 
     scanf("%s", string);
 
-    printf("You entered: ", string);
+    printf("You entered: %s\n", string);
 
     return 0;
 }
