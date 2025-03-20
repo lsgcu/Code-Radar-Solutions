@@ -9,7 +9,7 @@ int main() {
 
     int sum = first+second;
 
-    print("Sum: %i", sum)
+    printf("Sum: %i", sum)
 
     return 0;
 }
