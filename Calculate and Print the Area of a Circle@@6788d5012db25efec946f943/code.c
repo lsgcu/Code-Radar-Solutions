@@ -2,15 +2,14 @@
 
 int main() {
 
-float number;
+int number;
 
-scanf("%f", 7number);
-
+scanf("%i", &number);
 
 // formula: C/2pi where C is circumference of circle
-int area = number / 3.14;
+float area = (float)number / (2 * 3.14);
 
-printf("Area: %f", area);
+printf("Area: %.2f", area);
 
 return 0;
 }
