@@ -4,7 +4,7 @@ int main() {
 
 float number;
 
-scanf("%f", number);
+scanf("%f", 7number);
 
 
 // formula: C/2pi where C is circumference of circle
