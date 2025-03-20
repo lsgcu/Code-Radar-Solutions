@@ -2,11 +2,11 @@
 
 int main() {
 
-float first;
+float number;
 
-scanf("%f", &first);
+scanf("%f", &number);
 
-printf("You entered: %0.2f", first);
+printf("You entered: %.4f", number);
 
 return 0;
 }
