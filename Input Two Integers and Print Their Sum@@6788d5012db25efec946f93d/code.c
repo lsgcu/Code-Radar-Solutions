@@ -7,10 +7,7 @@ int main() {
 
     scanf("%i", "%i", &first, &second);
 
-    printf("%i", first);
-    printf("%i", second);
-
-    // int sum = first+second;
+    int sum = first+second;
 
     // printf("Sum: %i", sum);
 
