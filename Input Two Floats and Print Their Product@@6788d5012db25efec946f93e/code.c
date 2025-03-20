@@ -8,7 +8,7 @@ int main() {
 
     float product = first *= second;
 
-    printf("Product: %f", &product);
+    printf("Product: %.2f\n", &product);
 
 return 0;
 }
