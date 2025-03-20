@@ -9,7 +9,7 @@ scanf("%i" "%i" "%i", &first, &second, &third);
 
 int average = (first+=second+=third) / nb_index;
 
-printf("Average: %i\n", average);
+printf("Average: %.2f\n", average);
 
 return 0;
 }
