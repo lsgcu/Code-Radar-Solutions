@@ -4,9 +4,9 @@ int main() {
 
     char [string];
 
-    scanf('%s', string);
+    scanf("%s", string);
 
-    printf(string);
+    printf("You entered: ", string);
 
     return 0;
 }
