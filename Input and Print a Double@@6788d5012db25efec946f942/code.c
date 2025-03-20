@@ -4,9 +4,9 @@ int main() {
 
 float number;
 
-scanf("%lf", &number);
+scanf("%f", &number);
 
-printf("You entered: %0.4lf", number);
+printf("You entered: %0.4f", number);
 
 return 0;
 }
