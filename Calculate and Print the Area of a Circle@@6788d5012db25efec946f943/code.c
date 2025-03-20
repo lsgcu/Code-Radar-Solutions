@@ -7,9 +7,9 @@ int number;
 scanf("%i", &number);
 
 // formula: C/2pi where C is circumference of circle
-float area = (float)number / (2 * 3.14);
+float area = number / (2 * 3.14);
 
-printf("Area: %.2f", area);
+printf("Area: %0.2f", area);
 
 return 0;
 }
