@@ -4,7 +4,7 @@ int main() {
 
 char username[100];
 
-int age = 0;
+int age;
 
 char user_favorite_hobby[100];
 
