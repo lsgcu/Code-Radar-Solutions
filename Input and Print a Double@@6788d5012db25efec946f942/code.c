@@ -2,8 +2,6 @@
 
 int main() {
 
-float number;
-
 char input[100];
 double number;
     
