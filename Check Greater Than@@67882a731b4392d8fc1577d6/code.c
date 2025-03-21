@@ -5,7 +5,7 @@ int main() {
 int first, second;
 
 if (first > second) {
-    return true;
+    return "True";
 }
 
 return 0;
