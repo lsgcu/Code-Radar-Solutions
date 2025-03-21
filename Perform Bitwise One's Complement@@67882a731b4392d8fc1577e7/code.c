@@ -4,7 +4,7 @@ int main() {
 
     int number;
 
-    scanf("%d %d", &number);
+    scanf("%d", &number);
 
     int result = ~number;
 
