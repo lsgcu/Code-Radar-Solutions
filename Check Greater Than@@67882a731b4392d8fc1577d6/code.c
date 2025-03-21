@@ -3,10 +3,10 @@
 int main() {
 
 int first, second;
-char response = ["True"];
+bool True;
 
 if (first > second) {
-    return &response;
+    return True;
 }
 
 return 0;
