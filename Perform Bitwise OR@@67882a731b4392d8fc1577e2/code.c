@@ -8,7 +8,7 @@ scanf("%d %d", &first, &second);
 
 int result = first | second;
 
-printf(result);
+printf("%d\n", result);
 
 return 0;
 }
