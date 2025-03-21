@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
 
 int first, second;
-bool True;
+bool response = true;
 
 if (first > second) {
-    return True;
+    return response;
 }
 
 return 0;
