@@ -6,7 +6,7 @@ int first, second;
 
 scanf("%d %d", &first, &second);
 
-if (first * second > 0)
+if ((first * second) > 0)
     printf("True\n");
 else 
     printf("False\n");
