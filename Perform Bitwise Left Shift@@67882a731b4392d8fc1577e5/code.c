@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 int main() {
 
@@ -8,6 +8,6 @@ int main() {
 
     int result = number << shift;
 
-    printf("%d\n", number); 
+    printf("%d\n", result); 
     return 0;
 }
