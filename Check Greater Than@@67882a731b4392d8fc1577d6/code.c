@@ -4,11 +4,12 @@
 int main() {
 
 int first, second;
-bool response = true;
 
 if (first > second) {
-    return response;
-}
+        printf("True\n");
+    } else {
+        printf("False\n");
+    }
 
 return 0;
 }
