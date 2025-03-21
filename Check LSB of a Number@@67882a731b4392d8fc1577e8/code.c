@@ -6,7 +6,7 @@ int number;
 
 scanf("%d", &number);
 
-result = number
+result = number & 1;
 
 if (result == 1)
     printf("Set\n");
