@@ -6,7 +6,7 @@ int main() {
 
     scanf("%d %d", &number, &shift);
 
-    result = number << shift;
+    int result = number << shift;
 
     printf("%d\n", number); 
     return 0;
