@@ -3,7 +3,7 @@
 int main () {
     int first, second;
 
-    scanf('%d %d', &first. &second);
+    scanf('%i %i', &first. &second);
 
     if (first > second) {
         printf('%d\n', first);
