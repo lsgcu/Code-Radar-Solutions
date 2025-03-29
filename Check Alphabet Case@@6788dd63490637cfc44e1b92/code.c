@@ -8,7 +8,7 @@ int main() {
 
     if (toupper(c) == 0) {
         printf("Uppercase\n");
-    } else () {
+    } else {
         printf("Lowercase\n");
 
     return 0;
