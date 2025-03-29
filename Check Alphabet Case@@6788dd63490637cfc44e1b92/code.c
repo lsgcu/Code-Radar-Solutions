@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 int main() {
 
@@ -7,10 +6,10 @@ int main() {
 
     scanf("%c", &c);
 
-    if (toupper(c) ==0) {
+    if (c >= 'A' && c <= 'Z') {
         printf("Uppercase\n");
     }
-    if  (tolower(c) == 0) {
+    else {
         printf("Lowercase\n");
     }
 
