@@ -17,7 +17,7 @@ int multiplication(int first, int second) {
 }
 
 int main() {
-    int first, second input_operator;
+    int first, second, input_operator;
 
     scanf ("%d %d %d", &first, &second, &input_operator);
 
