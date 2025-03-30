@@ -17,12 +17,25 @@ int multiplication(int first, int second) {
 }
 
 int main() {
-    int first, second, input_operator;
+    int first, second;
+    char input_operator;
 
-    scanf ("%d %d %d", &first, &second, &input_operator);
+    scanf ("%d %d %c", &first, &second, &input_operator);
 
-    if (input_operator == '+') {
+    if (input_operator == "+" {
         int result = addition(first, second);
+        printf("%d\n", result);
+    }
+    else if (input_operator == "/") {
+        int result = division(first, second);
+        printf("%d\n", result);
+    }
+    else if (input_operator == "*") {
+        int result = multiplication(first, second);
+        printf("%d\n", result);
+    }
+    else if (input_operator == "-") {
+        int result = substraction(first, second);
         printf("%d\n", result);
     }
 
