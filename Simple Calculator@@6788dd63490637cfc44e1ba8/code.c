@@ -22,8 +22,8 @@ int main() {
     scanf ("%d %d %d", &first, &second, &input_operator);
 
     if (input_operator == '+') {
-        addition(first, second);
-        printf("%d\n", addition);
+        int result = addition(&first, &second);
+        printf("%d\n", result);
     }
 
 return 0;
