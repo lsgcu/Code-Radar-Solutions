@@ -11,8 +11,8 @@ int main() {
     int N;
     scanf("%d", &N);
     struct Student students[N];
-    scanf("%d %s %d", &students[i].roll_number, students[i].name, &students[i].marks);
-    printf("Roll Number: %d, Name: %s, Marks: %d\n", students[i].roll_number, students[i].name, students[i].marks);
+    scanf("%d %s %d", &students->roll_number, &students->name, &students->marks);
+    printf("Roll Number: %d, Name: %s, Marks: %d\n", students->roll_number, students->name, students->marks);
 
     return 0;
 }
