@@ -10,7 +10,7 @@ int substraction(int first, int second) {
 
 int division(int first, int second) {\
     if (first == 0 || second == 0) {
-        printf("Error\n");
+        printf("error\n");
         return 0;
     }
     return first / second;
@@ -23,25 +23,24 @@ int multiplication(int first, int second) {
 int main() {
     int first, second;
     char input_operator;
+    int result;
 
     scanf ("%d %d %c", &first, &second, &input_operator);
 
     if (input_operator == '+') {
-        int res1 = addition(first, second);
-        printf("%d\n", res1);
+        result = addition(first, second);
     }
     else if (input_operator == '/') {
-        int res2 = division(first, second);
-        printf("%d\n", res2);
+        result = division(first, second);
     }
     else if (input_operator == '*') {
-        int res3 = multiplication(first, second);
-        printf("%d\n", res3);
+        result = multiplication(first, second);
     }
     else if (input_operator == '-') {
-        int res4 = substraction(first, second);
-        printf("%d\n", res4);
+        result = substraction(first, second);
     }
+
+    printf("%d\n", result);
 
 return 0;
 }
