@@ -5,7 +5,9 @@ int main() {
 
     scanf("%d %d", &first, &second);
 
-    if (first ^ second == 0) {
+    int square = first * second;
+
+    if (first ^ second == square) {
         printf("Yes\n");
     }
     else {
