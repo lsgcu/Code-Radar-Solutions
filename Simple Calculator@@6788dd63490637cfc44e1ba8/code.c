@@ -8,7 +8,7 @@ int substraction(int first, int second) {
     return first - second;
 }
 
-int division(int first, int second) {\
+int division(int first, int second) {
     if (second == 0) {
         printf("error\n");
         return 0;
@@ -38,6 +38,10 @@ int main() {
     }
     else if (input_operator == '-') {
         result = substraction(first, second);
+    }
+    else{
+        printf("error\n");
+        return 1;
     }
 
     printf("%d\n", result);
