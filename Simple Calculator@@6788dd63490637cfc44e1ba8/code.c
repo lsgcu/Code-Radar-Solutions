@@ -11,7 +11,7 @@ int substraction(int first, int second) {
 int division(int first, int second) {\
     if (first == 0 || second == 0) {
         printf("Error\n");
-        return 1;
+        return 0;
     }
     return first / second;
 }
