@@ -11,11 +11,14 @@ int main() {
     int N;
     scanf("%d", &N);
     struct Student students[N];
+
     for (int i = 0; i < N; i++) {
-        scanf("%d %s %d", &students[i].roll_number, students[i].name, &students[i].marks);
-        printf("Roll Number: %d, Name: %s, Marks: %d\n", students[i].roll_number, students[i].name, students[i].marks);
+        scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
     }
 
+    for (int i = 0; i < N; i++) {
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n", students[i].rollNumber, students[i].name, students[i].marks);
+    }
 
     return 0;
 }
