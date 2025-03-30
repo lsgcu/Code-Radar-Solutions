@@ -8,6 +8,8 @@ int main() {
     if ((a == b) || (a == c) || (b == c)) {
         printf("Equilateral\n");
     }
+    else if ((a + b == c) || (b + a == a) || (a + c == b))
+        printf("Isoceles\n");
     
 return 0;
 }
