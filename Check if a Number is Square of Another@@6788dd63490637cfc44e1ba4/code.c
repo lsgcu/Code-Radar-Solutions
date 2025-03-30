@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d", &first, &second);
 
     if (first ^ second == 0) {
-        printf("Square\n");
+        printf("Yes\n");
     }
     else {
         printf("No\n");
