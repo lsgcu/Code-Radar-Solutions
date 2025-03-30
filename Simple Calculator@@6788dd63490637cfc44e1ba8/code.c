@@ -22,19 +22,19 @@ int main() {
 
     scanf ("%d %d %c", &first, &second, &input_operator);
 
-    if (input_operator == "+" {
+    if (input_operator == '+') {
         int result = addition(first, second);
         printf("%d\n", result);
     }
-    else if (input_operator == "/") {
+    else if (input_operator == '/') {
         int result = division(first, second);
         printf("%d\n", result);
     }
-    else if (input_operator == "*") {
+    else if (input_operator == '*') {
         int result = multiplication(first, second);
         printf("%d\n", result);
     }
-    else if (input_operator == "-") {
+    else if (input_operator == '-') {
         int result = substraction(first, second);
         printf("%d\n", result);
     }
