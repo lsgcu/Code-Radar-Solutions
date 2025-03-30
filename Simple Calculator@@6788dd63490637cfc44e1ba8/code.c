@@ -9,7 +9,7 @@ int substraction(int first, int second) {
 }
 
 int division(int first, int second) {\
-    if (first == 0 || second == 0) {
+    if (second == 0) {
         printf("error\n");
         return 0;
     }
