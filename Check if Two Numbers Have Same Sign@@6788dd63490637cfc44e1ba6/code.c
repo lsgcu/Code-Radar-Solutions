@@ -8,6 +8,9 @@ int main() {
     if (first && second >= 0) {
         printf("Same Sign\n");
     }
+    else if (first && second <= 0) {
+        printf("Same Sign\n");
+    }
     else  {
         printf("Different Sign\n");
     }
