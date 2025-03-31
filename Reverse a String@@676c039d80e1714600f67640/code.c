@@ -3,12 +3,15 @@
 
 int main() {
     char str[100];
-    scanf("%c", &str);
-    int len = strlen(str - 1);
+    scanf("%s", str);
+    int len = strlen(str);
 
-    for (int i = 0; i < len; i++) {
-        printf(str[i]);
-    }
+    printf("%d", len/2)
+    // for (int i = 0; i < (len/2); i++) {
+    //     char temp = str[i]; // h->e
+
+    // }
+
 
     return 0;
 }
