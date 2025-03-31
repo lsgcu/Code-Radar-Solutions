@@ -4,13 +4,14 @@
 int main() {
     char str[100];
     scanf("%s", str);
-    int len = strlen(str);
-    for (int i = 0; i < (len/2); i++) {
-        char temp = str[i]; 
-        str[i] = str[len - i - 1];
-        printf("str[i]: %c", str[i]);
-        str[len - i - 1] = temp;
-        printf("temp: %c", temp);
+    int start, end = strlen(str - 1);
+
+    while (start < end) {
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+        start++;
+        end--;
     }
     printf("%s", str);
     return 0;
