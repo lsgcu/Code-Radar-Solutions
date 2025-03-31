@@ -6,7 +6,7 @@ int main() {
     int lenght, g;
 
     lenght = strlen(str);
-    scanf("%s", &str);
+    scanf("%s", str);
     for (g = lenght - 1; g >=0; g--) {
         printf("%c", str[g]);
     }
