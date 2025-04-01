@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 int fibonacciSeries(int n) {
-    if (n <= 1) {
-        return n;
-    }
-    return fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    int a = 0, b = 1, next;
 
+    for (int i = 0; i < n; i++) {
+        printf("%d", a);
+    }
 }
 
 int main() {
 
     int n;
     scanf("%d", &n);
-    
-    printf("fibo:", fibonacciSeries(n));
+
+    if (n < 0) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    fibonacciSeries(n);
     return 0;
 }
